@@ -8,12 +8,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "get",
+				"name": "arr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -27,28 +27,9 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "myMap",
-				"outputs": [
-					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "index",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
 					}
 				],
 				"name": "remove",
@@ -57,19 +38,8 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_i",
-						"type": "uint256"
-					}
-				],
-				"name": "set",
+				"inputs": [],
+				"name": "test",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -88,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/Mapping.sol": "Mapping"
+			"tests/ArrayReplaceFromEnd.sol": "ArrayReplaceFromEnd"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -102,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/Mapping.sol": {
-			"keccak256": "0x16f2f732d1711b3b278194729e07ca23d013d7d79f6a6e2eff61a8536fa087e3",
+		"tests/ArrayReplaceFromEnd.sol": {
+			"keccak256": "0x02fac9806d2dda9ce25ec073be9f1b7ba3428ce958afae57172841f6cd5ee458",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0df3b333dff56e24ee54dc2f892eb8512022fbb26404dbc8f033090483dcf851",
-				"dweb:/ipfs/Qmbb4kyQFwFX8AW4ekAaRjDL5Sxn2BKD4GS5VTtbkKxaSt"
+				"bzz-raw://a27458a7ec03a6f87a5d28d0afbcaeab8a435c68a00fff3a3968d6564fc3cb3d",
+				"dweb:/ipfs/QmcVGedxY4MsYb7ij31ymm1H6TUnk93UDm2cgytSM3my7g"
 			]
 		}
 	},

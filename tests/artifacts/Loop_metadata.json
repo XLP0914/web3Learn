@@ -41,11 +41,11 @@
 	},
 	"sources": {
 		"tests/Loop.sol": {
-			"keccak256": "0xf5f0aba5ef2c6a24726b78282c773527835f686146bdc82bab9bc78d592f88a2",
+			"keccak256": "0x2f55719407c95322c4d57afb84aeda1f97b91b18d4dba23efefbe19de1318fc6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://806ec1ee0361de433d734aa4dcddc48f533c6ffe0536ddac85c3d1605c2cd2d1",
-				"dweb:/ipfs/QmT8NLVJoKpb13PRyStbiMjzqiqZJubPe3MduD1VCmF7ZL"
+				"bzz-raw://549ac7e749e2e2b50227f588a052a5a3bb313df299a3badba6f7e82040b82057",
+				"dweb:/ipfs/QmV9QrKoHHL7q1nGRXBubTVuHptxGT2C1RF154urxnsjcV"
 			]
 		}
 	},

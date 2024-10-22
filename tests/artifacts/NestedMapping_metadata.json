@@ -108,7 +108,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/Mapping1.sol": "NestedMapping"
+			"tests/Mapping.sol": "NestedMapping"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -122,7 +122,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/Mapping1.sol": {
+		"tests/Mapping.sol": {
 			"keccak256": "0x16f2f732d1711b3b278194729e07ca23d013d7d79f6a6e2eff61a8536fa087e3",
 			"license": "MIT",
 			"urls": [
