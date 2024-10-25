@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/homework/SimpleToken.sol": "SimpleToken"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/homework/MyToken.sol": {
+			"keccak256": "0x2bb707dc4e734afd805fe76bb17a639b2fed8a9f25480658840d1ea364cd3c4c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07eca3990b79657c2a67addd182c8182e8371b9bf8dbc104cd66754eea94de05",
+				"dweb:/ipfs/QmSrNXZTn8YeLr2z1CRwbtaAbDTQndvKFHzpHXoLuyGEY7"
+			]
+		},
+		"tests/homework/SimpleToken.sol": {
+			"keccak256": "0x9bb03429936e6531d787e82001128c94c6352232e71c4b5f2162f1ad532fae8f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://243d8ff4c497716c3c7ee96caf5ca261dbf63c0ad48dc4b4ba1bc4c00188bba0",
+				"dweb:/ipfs/QmSAK89vkwjZim1yEXMWqS7Qn6Z3m5DtAeSF3rjhSdmUrT"
+			]
+		}
+	},
+	"version": 1
+}

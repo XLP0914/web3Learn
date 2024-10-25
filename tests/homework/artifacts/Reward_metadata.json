@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract MyToken",
+						"name": "_myToken",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "sendBonus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/homework/Reward.sol": "Reward"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/homework/MyToken.sol": {
+			"keccak256": "0x2bb707dc4e734afd805fe76bb17a639b2fed8a9f25480658840d1ea364cd3c4c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07eca3990b79657c2a67addd182c8182e8371b9bf8dbc104cd66754eea94de05",
+				"dweb:/ipfs/QmSrNXZTn8YeLr2z1CRwbtaAbDTQndvKFHzpHXoLuyGEY7"
+			]
+		},
+		"tests/homework/Reward.sol": {
+			"keccak256": "0x040f9cc2abcb44732db8f25ca832c195811b4a55b441277afaabb3ab573c0511",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9fe3d8682a9747d268729eb0cd0ce3781746c43411222d88519dd6cafe6ce3f",
+				"dweb:/ipfs/QmURtBHDtfwzqQLMLe1xg1nk9g2Ugk5VRUhcZFE9Fy4iB9"
+			]
+		}
+	},
+	"version": 1
+}

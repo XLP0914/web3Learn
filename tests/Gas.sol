@@ -14,4 +14,4 @@ contract Gas {
             i += 1;
         }
     }
-}
+}  

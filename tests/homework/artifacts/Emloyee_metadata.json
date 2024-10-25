@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "study",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/homework/Emloyee.sol": "Emloyee"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/homework/Emloyee.sol": {
+			"keccak256": "0x787f475e0ac9552a2922ec0e5f54feca31639d5b4a564d9afe962531ad58c1c5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5f9abe4c27e79433f75ca22fd9aeb50be12eadb13dc409ba04565e09810a150c",
+				"dweb:/ipfs/QmUJyP2NWAkTSUvLyL6u7WHrCL9uPMrV7xGeWgAp17rsdV"
+			]
+		}
+	},
+	"version": 1
+}

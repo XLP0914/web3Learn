@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "drive",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/homework/Car.sol": "Car"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/homework/Car.sol": {
+			"keccak256": "0xc20dd510c6cefb2bdc19c0b903f5cf3e55efca84c016f1d448875b7650ebf597",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://afb6fd3fc1c6242f224706f5df9828b4cac8fa209bd042beeabbaf2c4a14ccac",
+				"dweb:/ipfs/QmabHLu4MUKRqrPntBU4BDjp7ZvonvEWcP2P3ZJzfGTPw2"
+			]
+		}
+	},
+	"version": 1
+}

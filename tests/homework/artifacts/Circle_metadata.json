@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "area",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/homework/Circle.sol": "Circle"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/homework/Circle.sol": {
+			"keccak256": "0x393b9cb2be04cfa5e0379fbe7b7175081aa732e28f46c7441e18c1b1dce3f9d0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c7ea59d1734c98d420b35b212ff47338d16d6843dba93f10effb64809ddadd05",
+				"dweb:/ipfs/QmaMNx2DrgQ4FRytoHpMV894tk1wQ2pJv7CgDdrwDHn3u6"
+			]
+		},
+		"tests/homework/Shape.sol": {
+			"keccak256": "0xbdf579eb333fbda7eacf15698a84002b20f5b612b7d898b40cdb905ab519e304",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ad20abf3b2d7578eedea8df25bb79584fc27f80011c4c91f129e2a1a38f3cab1",
+				"dweb:/ipfs/QmVkypJSP5EDeNCCBxkUsAZtDvHAr6UdSGWTnvQAcWZ2Qg"
+			]
+		}
+	},
+	"version": 1
+}

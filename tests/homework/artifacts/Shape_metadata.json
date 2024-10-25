@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "area",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/homework/Shape.sol": "Shape"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/homework/Shape.sol": {
+			"keccak256": "0xbdf579eb333fbda7eacf15698a84002b20f5b612b7d898b40cdb905ab519e304",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ad20abf3b2d7578eedea8df25bb79584fc27f80011c4c91f129e2a1a38f3cab1",
+				"dweb:/ipfs/QmVkypJSP5EDeNCCBxkUsAZtDvHAr6UdSGWTnvQAcWZ2Qg"
+			]
+		}
+	},
+	"version": 1
+}

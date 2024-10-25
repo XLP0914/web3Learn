@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "addAndMult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "add",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mult",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "externalFunction",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "publicFunction",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/homework/VisibilityExample.sol": "VisibilityExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/homework/VisibilityExample.sol": {
+			"keccak256": "0xe684c9ef0e77cc8562d78c847bf37518471d469bba1ac66c92c8c65255ccae42",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35f8eb298fa6d76408bdc64abbea1757519e5ed17d0bff4b151259298e567e3b",
+				"dweb:/ipfs/QmNfRReKRty7FoVpCvcCBVwCQ6gQMSxVxj2pSYeszhTQMz"
+			]
+		}
+	},
+	"version": 1
+}

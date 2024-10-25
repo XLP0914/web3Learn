@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract IToken",
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "sendBonus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/homework/Award.sol": "Award"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/homework/Award.sol": {
+			"keccak256": "0x750b616806957503930e118a3ac22adc18e27e3e0edcb2a2967cb626781687da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://529d4458f36fcbfe603d05c0b2de41bd0ab40a4f8bb46054bd2169f69b8da6e8",
+				"dweb:/ipfs/QmaMPreVroSiC9M9bh9nopjSbwndaKLpYXVh4Sg1NyqxHu"
+			]
+		},
+		"tests/homework/IToken.sol": {
+			"keccak256": "0x2c5d35be8478d6d7811d5146a8b7b3a11fa685bb78f034ae22d60eac807abb14",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4341d5e96a793ab0dc911fa4e2b6f676979a8bd7f3786139e7dd1d0650cc481c",
+				"dweb:/ipfs/QmYmDtMnAxq7QbrpTUaQvF4TagtvLWe1Zd5PWuihk9fH6V"
+			]
+		}
+	},
+	"version": 1
+}

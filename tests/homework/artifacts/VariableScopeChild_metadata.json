@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "clickd",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "externalFunction",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "publicFunction",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/homework/VariableScopeChild.sol": "VariableScopeChild"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/homework/VariableScope.sol": {
+			"keccak256": "0xf1c8b9b003a19900992a51de32d58c06483cc669a368de079a2f37a5a02a0098",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://949b0771a19d8ec14bf41ab04a9dc03fd3918ec8862892f54bdb60b3fd9f56b0",
+				"dweb:/ipfs/QmbeaCefsz1tNAkCNS49Bnb715Zg5zNbzHAXc7EB31ozdx"
+			]
+		},
+		"tests/homework/VariableScopeChild.sol": {
+			"keccak256": "0x69e4b7ce2204a4dcff9d113de84adf508d02df9252bc4825cc0c28e60f822355",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://580ae56d8725d4a5a13d8b17e35d8a07a266b365cc3f5e53d20641c1deab22cd",
+				"dweb:/ipfs/QmTBgcsdAtrmdSzEk2vVHy5Ax7n3gL2hguFmjEaRQWtPpC"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ood",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/homework/TryCatchExample.sol": "TryCatchExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/homework/TryCatchExample.sol": {
+			"keccak256": "0xbfdab73f2508e5529094ff370f22dac11db57c93bfe8c0e97811299a1a9314a4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eff973f229ed4f61df9cddbebb85eaadff91cf4bcf9d3a5f21fdec0f1c9b762d",
+				"dweb:/ipfs/QmYhGAYGBanwHsDZ1HfpjML3YVerSJ7jZZNfUsBKUDWGDZ"
+			]
+		}
+	},
+	"version": 1
+}

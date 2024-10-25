@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/homework/Square.sol": "Sq"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/homework/Square.sol": {
+			"keccak256": "0x513fa2e645488754540d2cbf4e74770940c819e668d1fa649d821ccde349620a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://019e1b0a59a407c95b97260362b42d032e5821a9f8a29deee5670bac6fc40133",
+				"dweb:/ipfs/Qme1S495MMQBSfS28BDynFzmjpDyys8ju7QjdQaUSU9WVB"
+			]
+		}
+	},
+	"version": 1
+}

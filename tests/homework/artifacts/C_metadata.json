@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/homework/Circle.sol": "C"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/homework/Circle.sol": {
+			"keccak256": "0xaa86693ba83c663f33a1cb6746f356804478d4cae3998c679135167a999c7685",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6f9829ea7481eb6f6ea304e18c93c74bd6dc1831ff8930d709a23835e2bb2b8c",
+				"dweb:/ipfs/QmbseLbsW94C4pdWD9mmNcNtAMHthW7f4n2SjENYJZWtgw"
+			]
+		}
+	},
+	"version": 1
+}

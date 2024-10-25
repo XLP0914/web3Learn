@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "work",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/homework/Shape.sol": "Sha"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/homework/Shape.sol": {
+			"keccak256": "0x5047d72ca24c7d35b31442aeb74e83512fcd67f72c197f00d8d0ded827692993",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://665d0eba6c431c74a0c0157c99702b7a48da39b7ad26bb301dfa193c7c838a2e",
+				"dweb:/ipfs/QmZW351dTm3CeA3HhKyJ4pKgeFkk7aoLgYaGdnRBRU9mVD"
+			]
+		}
+	},
+	"version": 1
+}

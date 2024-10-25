@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "aa",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/homework/TryAndcatch.sol": "TryAndcatch"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/homework/TryAndcatch.sol": {
+			"keccak256": "0x27dcc95d41db97a4baaf38b2b1b55c4494290b43fa43c603ef6688c48827a1a8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cd706075e85b53b22d2ead73a0fb06bae8608388861c0ae2ec686d170cb023d7",
+				"dweb:/ipfs/QmSg5H6DUjy3Kbncn6EdwmUG2aADBFEvZDsitT3C5VbMLL"
+			]
+		},
+		"tests/homework/TryCatchExample.sol": {
+			"keccak256": "0xbfdab73f2508e5529094ff370f22dac11db57c93bfe8c0e97811299a1a9314a4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eff973f229ed4f61df9cddbebb85eaadff91cf4bcf9d3a5f21fdec0f1c9b762d",
+				"dweb:/ipfs/QmYhGAYGBanwHsDZ1HfpjML3YVerSJ7jZZNfUsBKUDWGDZ"
+			]
+		}
+	},
+	"version": 1
+}
