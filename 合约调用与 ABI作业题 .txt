@@ -19,7 +19,6 @@ uint 表示一个无符号整数，其位宽为 M 位。M 的取值范围为 8 �
 匿名枚举（anonymous enum）
 匿名结构体（anonymous struct）
 匿名事件（anonymous event）
-Alt
 
 如何通过 ABI 编码调用具有多个参数的函数？
 要通过 ABI 编码调用具有多个参数的函数，需要按照 ABI 规范将参数编码为一个字节数组。具体步骤如下：
